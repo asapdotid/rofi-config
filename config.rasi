@@ -8,9 +8,9 @@ configuration {
 	normalize-match: true;
 	show-icons: true;
 	icon-theme: "Papirus";
-/*	cache-dir: ;*/
+  /* cache-dir: ; */
 	steal-focus: false;
-/*	dpi: -1;*/
+  /* dpi: -1; */
 
 	/*---------- Matching setting ----------*/
 	matching: "normal";
@@ -54,9 +54,9 @@ configuration {
 	window-thumbnail: false;
 
 	/*---------- Combi settings ----------*/
-/*	combi-modi: "window,run";*/
-/*	combi-hide-mode-prefix: false;*/
-/*	combi-display-format: "{mode} {text}";*/
+  /* combi-modi: "window,run"; */
+  /* combi-hide-mode-prefix: false; */
+  /* combi-display-format: "{mode} {text}"; */
 
 	/*---------- History and Sorting ----------*/
 	disable-history: false;
@@ -79,20 +79,20 @@ configuration {
 	sort: false;
 	threads: 0;
 	click-to-exit: true;
-/*	ignored-prefixes: "";*/
-/*	pid: "/run/user/1000/rofi.pid";*/
+	/* ignored-prefixes: ""; */
+	/* pid: "/run/user/1000/rofi.pid"; */
 
 	/*---------- File browser settings ----------*/
-    filebrowser {
-/*	  directory: "/home";*/
+  filebrowser {
+	    /* directory: "/home"; */
       directories-first: true;
       sorting-method:    "name";
-    }
+  }
 
 	/*---------- Other settings ----------*/
-    timeout {
-      action: "kb-cancel";
-      delay:  10;
-    }
+  timeout {
+    action: "kb-cancel";
+    delay:  10;
+  }
 }
 @theme "themes/manjaro"

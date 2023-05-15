@@ -29,20 +29,20 @@
     text-color: @nord4;
     highlight: underline bold #eceff4;
 }
-#window {
+window {
     border: 1px;
     border-radius: 0;
     border-color: @nord7;
     transparency: "screenshot";
 }
-#inputbar {
+inputbar {
     text-color: @nord1;
     padding: 0px;
     border: 0px 0px 1px 0px;
     border-color: @nord7;
     children: [ icon-search, entry ];
 }
-#icon-search {
+icon-search {
     expand:     false;
     filename:   "manjaro";
     color: @nord4;
@@ -50,10 +50,10 @@
     size: 28px;
     padding: 0px 0px 0px 15px;
 }
-#icon-search, entry, element-icon, element-text {
+icon-search, entry, element-icon, element-text {
     vertical-align: 0.5;
 }
-#entry {
+entry {
     background-color: @nord16;
     text-color: @nord4;
     padding: 14px;
@@ -61,64 +61,64 @@
     placeholder-color : @nord4;
     cursor: pointer;
 }
-#message {
+message {
     border: 0px 0px 1px;
     border-color: @nord7;
     padding: 0px 0px 6px 7px;
 }
-#listview {
+listview {
     lines: 7;
     padding: 8px 8px 8px;
     background-color: rgba(34,45,49,0.9);
 }
-#element {
+element {
     padding: 0px 8px 0px 8px;
     text-color: @nord4;
     border-radius: 0;
 }
-#element-icon {
+element-icon {
     size: 32px;
     padding: 6px;
 }
-#element-text {
+element-text {
     vertical-align: 0.5;
     text-color: inherit;
 }
-#element.normal.normal {
+element.normal.normal {
     text-color: @nord4;
 }
-#element.normal.urgent {
+element.normal.urgent {
     text-color: @nord11;
 }
-#element.normal.active {
+element.normal.active {
     text-color: @nord10;
 }
-#element.alternate.normal {
+element.alternate.normal {
     text-color: @nord4;
 }
-#element.alternate.urgent {
+element.alternate.urgent {
     text-color: @nord11;
 }
-#element.alternate.active {
+element.alternate.active {
     text-color: @nord10;
 }
-#element.selected.normal {
+element.selected.normal {
     background-color: @nord17;
     text-color: @nord1;
 }
-#element.selected.urgent {
+element.selected.urgent {
     background-color: @nord11;
     text-color: @nord4;
 }
-#element.selected.active {
+element.selected.active {
     background-color: @nord10;
     text-color: @nord4;
 }
-#scrollbar {
+scrollbar {
     handle-color: @nord3;
     handle-width: 8px;
 }
-#button.selected {
+button.selected {
     background-color: @nord7;
     text-color: @nord4;
 }

@@ -1,6 +1,6 @@
 configuration {
 	/*---------- General setting ----------*/
-	modi: "drun,run,filebrowser,window";
+	modi: "drun,run,filebrowser,window,emoji,calc,wifimenu";
 	case-sensitive: false;
 	cycle: true;
 	filter: "";
@@ -75,7 +75,7 @@ configuration {
 
 	/*---------- Misc setting ----------*/
 	terminal: "alacritty";
-	font: "Mono 12";
+	font: "Adwaita Mono 11";
 	sort: false;
 	threads: 0;
 	click-to-exit: true;

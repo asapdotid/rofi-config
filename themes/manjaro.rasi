@@ -9,7 +9,7 @@
     nord7: #8fbcbb;
     nord8: #88c0d0;
     nord9: #81a1c1;
-    nord10: #2AA198;
+    nord10: #2aa198;
     nord11: #bf616a;
     nord12: #d08770;
     nord13: #ebcb8b;
@@ -19,7 +19,7 @@
     nord17: rgba(209,242,235 ,0.6);
     transparent: rgba(34,45,49,0);
 
-    font: "Noto Sans 12";
+    font: "GeistMono Nerd Font 11";
     background-color:  transparent;
     border: 0px;
     margin: 0px;
@@ -32,14 +32,14 @@
 window {
     border: 1px;
     border-radius: 0;
-    border-color: @nord7;
+    border-color: @nord10;
     transparency: "screenshot";
 }
 inputbar {
     text-color: @nord1;
     padding: 0px;
     border: 0px 0px 1px 0px;
-    border-color: @nord7;
+    border-color: @nord10;
     children: [ icon-search, entry ];
 }
 icon-search {
@@ -63,7 +63,7 @@ entry {
 }
 message {
     border: 0px 0px 1px;
-    border-color: @nord7;
+    border-color: @nord10;
     padding: 0px 0px 6px 7px;
 }
 listview {
@@ -119,6 +119,6 @@ scrollbar {
     handle-width: 8px;
 }
 button.selected {
-    background-color: @nord7;
+    background-color: @nord10;
     text-color: @nord4;
 }
